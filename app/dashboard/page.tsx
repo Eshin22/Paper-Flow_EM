@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import AdminPanel from "./admin/page";
 import TeacherPanel from "./teacher/page";
-import ReviewerPanel from "./reviewerPanel";
+import ReviewerPanel from "./reviewer/page";
 
 export default function Dashboard() {
   interface RootState {

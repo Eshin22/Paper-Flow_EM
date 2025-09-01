@@ -130,6 +130,12 @@ export default function AdminPage() {
           >
             ⏳ Work Progress
           </Link>
+          <Link
+  href="/dashboard/admin/studyleave"
+  className="px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-sm"
+>
+  📝 Reviewer Requests
+</Link>
           <button
             onClick={handleLogout}
             className="px-4 py-2 rounded-lg bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-sm"
